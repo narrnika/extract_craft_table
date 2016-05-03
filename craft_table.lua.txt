@@ -1,0 +1,4815 @@
+craft_table = {
+	{
+		recipe = {
+			{
+				"default:steel_ingot"
+			},
+			{
+				"group:stick"
+			}
+		},
+		source = "screwdriver",
+		output = "screwdriver:screwdriver"
+	},
+	{
+		recipe = {
+			{
+				"default:flint",
+				"default:steel_ingot"
+			}
+		},
+		source = "fire",
+		output = "fire:flint_and_steel"
+	},
+	{
+		recipe = {
+			"group:flower,color_white"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:white 4"
+	},
+	{
+		recipe = {
+			"group:flower,color_grey"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:grey 4"
+	},
+	{
+		recipe = {
+			"group:flower,color_dark_grey"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:dark_grey 4"
+	},
+	{
+		recipe = {
+			"group:flower,color_black"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:black 4"
+	},
+	{
+		recipe = {
+			"group:flower,color_violet"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:violet 4"
+	},
+	{
+		recipe = {
+			"group:flower,color_blue"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:blue 4"
+	},
+	{
+		recipe = {
+			"group:flower,color_cyan"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:cyan 4"
+	},
+	{
+		recipe = {
+			"group:flower,color_dark_green"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:dark_green 4"
+	},
+	{
+		recipe = {
+			"group:flower,color_green"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:green 4"
+	},
+	{
+		recipe = {
+			"group:flower,color_yellow"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:yellow 4"
+	},
+	{
+		recipe = {
+			"group:flower,color_brown"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:brown 4"
+	},
+	{
+		recipe = {
+			"group:flower,color_orange"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:orange 4"
+	},
+	{
+		recipe = {
+			"group:flower,color_red"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:red 4"
+	},
+	{
+		recipe = {
+			"group:flower,color_magenta"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:magenta 4"
+	},
+	{
+		recipe = {
+			"group:flower,color_pink"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:pink 4"
+	},
+	{
+		recipe = {
+			"group:coal"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:black 4"
+	},
+	{
+		recipe = {
+			"dye:magenta",
+			"dye:pink"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:magenta 2"
+	},
+	{
+		recipe = {
+			"dye:magenta",
+			"dye:magenta"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:magenta 2"
+	},
+	{
+		recipe = {
+			"dye:blue",
+			"dye:pink"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:violet 2"
+	},
+	{
+		recipe = {
+			"dye:blue",
+			"dye:magenta"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:violet 2"
+	},
+	{
+		recipe = {
+			"dye:blue",
+			"dye:red"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:magenta 2"
+	},
+	{
+		recipe = {
+			"dye:blue",
+			"dye:orange"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:brown 2"
+	},
+	{
+		recipe = {
+			"dye:blue",
+			"dye:brown"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:brown 2"
+	},
+	{
+		recipe = {
+			"dye:blue",
+			"dye:yellow"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:dark_green 2"
+	},
+	{
+		recipe = {
+			"dye:blue",
+			"dye:green"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:cyan 2"
+	},
+	{
+		recipe = {
+			"dye:blue",
+			"dye:dark_green"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:cyan 2"
+	},
+	{
+		recipe = {
+			"dye:blue",
+			"dye:cyan"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:cyan 2"
+	},
+	{
+		recipe = {
+			"dye:blue",
+			"dye:blue"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:blue 2"
+	},
+	{
+		recipe = {
+			"dye:cyan",
+			"dye:pink"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:brown 2"
+	},
+	{
+		recipe = {
+			"dye:cyan",
+			"dye:magenta"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:blue 2"
+	},
+	{
+		recipe = {
+			"dye:cyan",
+			"dye:red"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:brown 2"
+	},
+	{
+		recipe = {
+			"dye:cyan",
+			"dye:orange"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:dark_green 2"
+	},
+	{
+		recipe = {
+			"dye:cyan",
+			"dye:brown"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:dark_grey 2"
+	},
+	{
+		recipe = {
+			"dye:cyan",
+			"dye:yellow"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:green 2"
+	},
+	{
+		recipe = {
+			"dye:cyan",
+			"dye:green"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:cyan 2"
+	},
+	{
+		recipe = {
+			"dye:cyan",
+			"dye:dark_green"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:dark_green 2"
+	},
+	{
+		recipe = {
+			"dye:cyan",
+			"dye:cyan"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:cyan 2"
+	},
+	{
+		recipe = {
+			"dye:orange",
+			"dye:pink"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:orange 2"
+	},
+	{
+		recipe = {
+			"dye:orange",
+			"dye:magenta"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:red 2"
+	},
+	{
+		recipe = {
+			"dye:orange",
+			"dye:red"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:orange 2"
+	},
+	{
+		recipe = {
+			"dye:orange",
+			"dye:orange"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:orange 2"
+	},
+	{
+		recipe = {
+			"dye:grey",
+			"dye:pink"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:pink 2"
+	},
+	{
+		recipe = {
+			"dye:grey",
+			"dye:magenta"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:pink 2"
+	},
+	{
+		recipe = {
+			"dye:grey",
+			"dye:red"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:pink 2"
+	},
+	{
+		recipe = {
+			"dye:grey",
+			"dye:orange"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:orange 2"
+	},
+	{
+		recipe = {
+			"dye:grey",
+			"dye:brown"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:orange 2"
+	},
+	{
+		recipe = {
+			"dye:grey",
+			"dye:yellow"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:yellow 2"
+	},
+	{
+		recipe = {
+			"dye:grey",
+			"dye:green"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:green 2"
+	},
+	{
+		recipe = {
+			"dye:grey",
+			"dye:dark_green"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:green 2"
+	},
+	{
+		recipe = {
+			"dye:grey",
+			"dye:cyan"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:grey 2"
+	},
+	{
+		recipe = {
+			"dye:grey",
+			"dye:blue"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:cyan 2"
+	},
+	{
+		recipe = {
+			"dye:grey",
+			"dye:violet"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:violet 2"
+	},
+	{
+		recipe = {
+			"dye:grey",
+			"dye:black"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:dark_grey 2"
+	},
+	{
+		recipe = {
+			"dye:grey",
+			"dye:dark_grey"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:grey 2"
+	},
+	{
+		recipe = {
+			"dye:grey",
+			"dye:grey"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:grey 2"
+	},
+	{
+		recipe = {
+			"dye:red",
+			"dye:pink"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:pink 2"
+	},
+	{
+		recipe = {
+			"dye:red",
+			"dye:magenta"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:magenta 2"
+	},
+	{
+		recipe = {
+			"dye:red",
+			"dye:red"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:red 2"
+	},
+	{
+		recipe = {
+			"dye:pink",
+			"dye:pink"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:pink 2"
+	},
+	{
+		recipe = {
+			"dye:green",
+			"dye:pink"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:yellow 2"
+	},
+	{
+		recipe = {
+			"dye:green",
+			"dye:magenta"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:brown 2"
+	},
+	{
+		recipe = {
+			"dye:green",
+			"dye:red"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:yellow 2"
+	},
+	{
+		recipe = {
+			"dye:green",
+			"dye:orange"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:yellow 2"
+	},
+	{
+		recipe = {
+			"dye:green",
+			"dye:brown"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:dark_green 2"
+	},
+	{
+		recipe = {
+			"dye:green",
+			"dye:yellow"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:green 2"
+	},
+	{
+		recipe = {
+			"dye:green",
+			"dye:green"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:green 2"
+	},
+	{
+		recipe = {
+			"dye:violet",
+			"dye:pink"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:magenta 2"
+	},
+	{
+		recipe = {
+			"dye:violet",
+			"dye:magenta"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:magenta 2"
+	},
+	{
+		recipe = {
+			"dye:violet",
+			"dye:red"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:magenta 2"
+	},
+	{
+		recipe = {
+			"dye:violet",
+			"dye:orange"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:red 2"
+	},
+	{
+		recipe = {
+			"dye:violet",
+			"dye:brown"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:brown 2"
+	},
+	{
+		recipe = {
+			"dye:violet",
+			"dye:yellow"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:red 2"
+	},
+	{
+		recipe = {
+			"dye:violet",
+			"dye:green"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:cyan 2"
+	},
+	{
+		recipe = {
+			"dye:violet",
+			"dye:dark_green"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:brown 2"
+	},
+	{
+		recipe = {
+			"dye:violet",
+			"dye:cyan"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:blue 2"
+	},
+	{
+		recipe = {
+			"dye:violet",
+			"dye:blue"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:violet 2"
+	},
+	{
+		recipe = {
+			"dye:violet",
+			"dye:violet"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:violet 2"
+	},
+	{
+		recipe = {
+			"dye:black",
+			"dye:pink"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:black 2"
+	},
+	{
+		recipe = {
+			"dye:black",
+			"dye:magenta"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:black 2"
+	},
+	{
+		recipe = {
+			"dye:black",
+			"dye:red"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:black 2"
+	},
+	{
+		recipe = {
+			"dye:black",
+			"dye:orange"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:black 2"
+	},
+	{
+		recipe = {
+			"dye:black",
+			"dye:brown"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:black 2"
+	},
+	{
+		recipe = {
+			"dye:black",
+			"dye:yellow"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:black 2"
+	},
+	{
+		recipe = {
+			"dye:black",
+			"dye:green"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:black 2"
+	},
+	{
+		recipe = {
+			"dye:black",
+			"dye:dark_green"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:black 2"
+	},
+	{
+		recipe = {
+			"dye:black",
+			"dye:cyan"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:black 2"
+	},
+	{
+		recipe = {
+			"dye:black",
+			"dye:blue"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:black 2"
+	},
+	{
+		recipe = {
+			"dye:black",
+			"dye:violet"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:black 2"
+	},
+	{
+		recipe = {
+			"dye:black",
+			"dye:black"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:black 2"
+	},
+	{
+		recipe = {
+			"dye:dark_grey",
+			"dye:pink"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:brown 2"
+	},
+	{
+		recipe = {
+			"dye:dark_grey",
+			"dye:magenta"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:brown 2"
+	},
+	{
+		recipe = {
+			"dye:dark_grey",
+			"dye:red"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:brown 2"
+	},
+	{
+		recipe = {
+			"dye:dark_grey",
+			"dye:orange"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:brown 2"
+	},
+	{
+		recipe = {
+			"dye:dark_grey",
+			"dye:brown"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:brown 2"
+	},
+	{
+		recipe = {
+			"dye:dark_grey",
+			"dye:yellow"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:brown 2"
+	},
+	{
+		recipe = {
+			"dye:dark_grey",
+			"dye:green"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:dark_green 2"
+	},
+	{
+		recipe = {
+			"dye:dark_grey",
+			"dye:dark_green"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:dark_green 2"
+	},
+	{
+		recipe = {
+			"dye:dark_grey",
+			"dye:cyan"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:blue 2"
+	},
+	{
+		recipe = {
+			"dye:dark_grey",
+			"dye:blue"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:blue 2"
+	},
+	{
+		recipe = {
+			"dye:dark_grey",
+			"dye:violet"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:violet 2"
+	},
+	{
+		recipe = {
+			"dye:dark_grey",
+			"dye:black"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:black 2"
+	},
+	{
+		recipe = {
+			"dye:dark_grey",
+			"dye:dark_grey"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:dark_grey 2"
+	},
+	{
+		recipe = {
+			"dye:brown",
+			"dye:pink"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:brown 2"
+	},
+	{
+		recipe = {
+			"dye:brown",
+			"dye:magenta"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:brown 2"
+	},
+	{
+		recipe = {
+			"dye:brown",
+			"dye:red"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:brown 2"
+	},
+	{
+		recipe = {
+			"dye:brown",
+			"dye:orange"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:orange 2"
+	},
+	{
+		recipe = {
+			"dye:brown",
+			"dye:brown"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:brown 2"
+	},
+	{
+		recipe = {
+			"dye:yellow",
+			"dye:pink"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:orange 2"
+	},
+	{
+		recipe = {
+			"dye:yellow",
+			"dye:magenta"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:red 2"
+	},
+	{
+		recipe = {
+			"dye:yellow",
+			"dye:red"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:orange 2"
+	},
+	{
+		recipe = {
+			"dye:yellow",
+			"dye:orange"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:yellow 2"
+	},
+	{
+		recipe = {
+			"dye:yellow",
+			"dye:brown"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:orange 2"
+	},
+	{
+		recipe = {
+			"dye:yellow",
+			"dye:yellow"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:yellow 2"
+	},
+	{
+		recipe = {
+			"dye:dark_green",
+			"dye:pink"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:brown 2"
+	},
+	{
+		recipe = {
+			"dye:dark_green",
+			"dye:magenta"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:brown 2"
+	},
+	{
+		recipe = {
+			"dye:dark_green",
+			"dye:red"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:brown 2"
+	},
+	{
+		recipe = {
+			"dye:dark_green",
+			"dye:orange"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:brown 2"
+	},
+	{
+		recipe = {
+			"dye:dark_green",
+			"dye:brown"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:brown 2"
+	},
+	{
+		recipe = {
+			"dye:dark_green",
+			"dye:yellow"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:green 2"
+	},
+	{
+		recipe = {
+			"dye:dark_green",
+			"dye:green"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:green 2"
+	},
+	{
+		recipe = {
+			"dye:dark_green",
+			"dye:dark_green"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:dark_green 2"
+	},
+	{
+		recipe = {
+			"dye:white",
+			"dye:pink"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:pink 2"
+	},
+	{
+		recipe = {
+			"dye:white",
+			"dye:magenta"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:pink 2"
+	},
+	{
+		recipe = {
+			"dye:white",
+			"dye:red"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:pink 2"
+	},
+	{
+		recipe = {
+			"dye:white",
+			"dye:orange"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:orange 2"
+	},
+	{
+		recipe = {
+			"dye:white",
+			"dye:brown"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:orange 2"
+	},
+	{
+		recipe = {
+			"dye:white",
+			"dye:yellow"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:yellow 2"
+	},
+	{
+		recipe = {
+			"dye:white",
+			"dye:green"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:green 2"
+	},
+	{
+		recipe = {
+			"dye:white",
+			"dye:dark_green"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:green 2"
+	},
+	{
+		recipe = {
+			"dye:white",
+			"dye:cyan"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:grey 2"
+	},
+	{
+		recipe = {
+			"dye:white",
+			"dye:blue"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:cyan 2"
+	},
+	{
+		recipe = {
+			"dye:white",
+			"dye:violet"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:violet 2"
+	},
+	{
+		recipe = {
+			"dye:white",
+			"dye:black"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:grey 2"
+	},
+	{
+		recipe = {
+			"dye:white",
+			"dye:dark_grey"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:grey 2"
+	},
+	{
+		recipe = {
+			"dye:white",
+			"dye:grey"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:grey 2"
+	},
+	{
+		recipe = {
+			"dye:white",
+			"dye:white"
+		},
+		type = "shapeless",
+		source = "dye",
+		output = "dye:white 2"
+	},
+	{
+		recipe = {
+			{
+				"default:wood",
+				"group:stick",
+				"default:wood"
+			},
+			{
+				"default:wood",
+				"group:stick",
+				"default:wood"
+			}
+		},
+		source = "default",
+		output = "default:fence_wood 4"
+	},
+	{
+		recipe = {
+			{
+				"default:acacia_wood",
+				"group:stick",
+				"default:acacia_wood"
+			},
+			{
+				"default:acacia_wood",
+				"group:stick",
+				"default:acacia_wood"
+			}
+		},
+		source = "default",
+		output = "default:fence_acacia_wood 4"
+	},
+	{
+		recipe = {
+			{
+				"default:junglewood",
+				"group:stick",
+				"default:junglewood"
+			},
+			{
+				"default:junglewood",
+				"group:stick",
+				"default:junglewood"
+			}
+		},
+		source = "default",
+		output = "default:fence_junglewood 4"
+	},
+	{
+		recipe = {
+			{
+				"default:pine_wood",
+				"group:stick",
+				"default:pine_wood"
+			},
+			{
+				"default:pine_wood",
+				"group:stick",
+				"default:pine_wood"
+			}
+		},
+		source = "default",
+		output = "default:fence_pine_wood 4"
+	},
+	{
+		recipe = {
+			{
+				"default:aspen_wood",
+				"group:stick",
+				"default:aspen_wood"
+			},
+			{
+				"default:aspen_wood",
+				"group:stick",
+				"default:aspen_wood"
+			}
+		},
+		source = "default",
+		output = "default:fence_aspen_wood 4"
+	},
+	{
+		recipe = {
+			"default:book",
+			"default:book_written"
+		},
+		type = "shapeless",
+		source = "default",
+		output = "default:book_written"
+	},
+	{
+		recipe = {
+			{
+				"default:tree"
+			}
+		},
+		source = "default",
+		output = "default:wood 4"
+	},
+	{
+		recipe = {
+			{
+				"default:jungletree"
+			}
+		},
+		source = "default",
+		output = "default:junglewood 4"
+	},
+	{
+		recipe = {
+			{
+				"default:pine_tree"
+			}
+		},
+		source = "default",
+		output = "default:pine_wood 4"
+	},
+	{
+		recipe = {
+			{
+				"default:acacia_tree"
+			}
+		},
+		source = "default",
+		output = "default:acacia_wood 4"
+	},
+	{
+		recipe = {
+			{
+				"default:aspen_tree"
+			}
+		},
+		source = "default",
+		output = "default:aspen_wood 4"
+	},
+	{
+		recipe = {
+			{
+				"group:wood"
+			}
+		},
+		source = "default",
+		output = "default:stick 4"
+	},
+	{
+		recipe = {
+			{
+				"default:steel_ingot",
+				"default:steel_ingot",
+				"default:steel_ingot"
+			},
+			{
+				"default:steel_ingot",
+				"default:steel_ingot",
+				"default:steel_ingot"
+			},
+			{
+				"",
+				"group:stick",
+				""
+			}
+		},
+		source = "default",
+		output = "default:sign_wall_steel 3"
+	},
+	{
+		recipe = {
+			{
+				"group:wood",
+				"group:wood",
+				"group:wood"
+			},
+			{
+				"group:wood",
+				"group:wood",
+				"group:wood"
+			},
+			{
+				"",
+				"group:stick",
+				""
+			}
+		},
+		source = "default",
+		output = "default:sign_wall_wood 3"
+	},
+	{
+		recipe = {
+			{
+				"default:coal_lump"
+			},
+			{
+				"group:stick"
+			}
+		},
+		source = "default",
+		output = "default:torch 4"
+	},
+	{
+		recipe = {
+			{
+				"group:wood",
+				"group:wood",
+				"group:wood"
+			},
+			{
+				"",
+				"group:stick",
+				""
+			},
+			{
+				"",
+				"group:stick",
+				""
+			}
+		},
+		source = "default",
+		output = "default:pick_wood"
+	},
+	{
+		recipe = {
+			{
+				"group:stone",
+				"group:stone",
+				"group:stone"
+			},
+			{
+				"",
+				"group:stick",
+				""
+			},
+			{
+				"",
+				"group:stick",
+				""
+			}
+		},
+		source = "default",
+		output = "default:pick_stone"
+	},
+	{
+		recipe = {
+			{
+				"default:steel_ingot",
+				"default:steel_ingot",
+				"default:steel_ingot"
+			},
+			{
+				"",
+				"group:stick",
+				""
+			},
+			{
+				"",
+				"group:stick",
+				""
+			}
+		},
+		source = "default",
+		output = "default:pick_steel"
+	},
+	{
+		recipe = {
+			{
+				"default:bronze_ingot",
+				"default:bronze_ingot",
+				"default:bronze_ingot"
+			},
+			{
+				"",
+				"group:stick",
+				""
+			},
+			{
+				"",
+				"group:stick",
+				""
+			}
+		},
+		source = "default",
+		output = "default:pick_bronze"
+	},
+	{
+		recipe = {
+			{
+				"default:mese_crystal",
+				"default:mese_crystal",
+				"default:mese_crystal"
+			},
+			{
+				"",
+				"group:stick",
+				""
+			},
+			{
+				"",
+				"group:stick",
+				""
+			}
+		},
+		source = "default",
+		output = "default:pick_mese"
+	},
+	{
+		recipe = {
+			{
+				"default:diamond",
+				"default:diamond",
+				"default:diamond"
+			},
+			{
+				"",
+				"group:stick",
+				""
+			},
+			{
+				"",
+				"group:stick",
+				""
+			}
+		},
+		source = "default",
+		output = "default:pick_diamond"
+	},
+	{
+		recipe = {
+			{
+				"group:wood"
+			},
+			{
+				"group:stick"
+			},
+			{
+				"group:stick"
+			}
+		},
+		source = "default",
+		output = "default:shovel_wood"
+	},
+	{
+		recipe = {
+			{
+				"group:stone"
+			},
+			{
+				"group:stick"
+			},
+			{
+				"group:stick"
+			}
+		},
+		source = "default",
+		output = "default:shovel_stone"
+	},
+	{
+		recipe = {
+			{
+				"default:steel_ingot"
+			},
+			{
+				"group:stick"
+			},
+			{
+				"group:stick"
+			}
+		},
+		source = "default",
+		output = "default:shovel_steel"
+	},
+	{
+		recipe = {
+			{
+				"default:bronze_ingot"
+			},
+			{
+				"group:stick"
+			},
+			{
+				"group:stick"
+			}
+		},
+		source = "default",
+		output = "default:shovel_bronze"
+	},
+	{
+		recipe = {
+			{
+				"default:mese_crystal"
+			},
+			{
+				"group:stick"
+			},
+			{
+				"group:stick"
+			}
+		},
+		source = "default",
+		output = "default:shovel_mese"
+	},
+	{
+		recipe = {
+			{
+				"default:diamond"
+			},
+			{
+				"group:stick"
+			},
+			{
+				"group:stick"
+			}
+		},
+		source = "default",
+		output = "default:shovel_diamond"
+	},
+	{
+		recipe = {
+			{
+				"group:wood",
+				"group:wood"
+			},
+			{
+				"group:wood",
+				"group:stick"
+			},
+			{
+				"",
+				"group:stick"
+			}
+		},
+		source = "default",
+		output = "default:axe_wood"
+	},
+	{
+		recipe = {
+			{
+				"group:stone",
+				"group:stone"
+			},
+			{
+				"group:stone",
+				"group:stick"
+			},
+			{
+				"",
+				"group:stick"
+			}
+		},
+		source = "default",
+		output = "default:axe_stone"
+	},
+	{
+		recipe = {
+			{
+				"default:steel_ingot",
+				"default:steel_ingot"
+			},
+			{
+				"default:steel_ingot",
+				"group:stick"
+			},
+			{
+				"",
+				"group:stick"
+			}
+		},
+		source = "default",
+		output = "default:axe_steel"
+	},
+	{
+		recipe = {
+			{
+				"default:bronze_ingot",
+				"default:bronze_ingot"
+			},
+			{
+				"default:bronze_ingot",
+				"group:stick"
+			},
+			{
+				"",
+				"group:stick"
+			}
+		},
+		source = "default",
+		output = "default:axe_bronze"
+	},
+	{
+		recipe = {
+			{
+				"default:mese_crystal",
+				"default:mese_crystal"
+			},
+			{
+				"default:mese_crystal",
+				"group:stick"
+			},
+			{
+				"",
+				"group:stick"
+			}
+		},
+		source = "default",
+		output = "default:axe_mese"
+	},
+	{
+		recipe = {
+			{
+				"default:diamond",
+				"default:diamond"
+			},
+			{
+				"default:diamond",
+				"group:stick"
+			},
+			{
+				"",
+				"group:stick"
+			}
+		},
+		source = "default",
+		output = "default:axe_diamond"
+	},
+	{
+		recipe = {
+			{
+				"group:wood",
+				"group:wood"
+			},
+			{
+				"group:stick",
+				"group:wood"
+			},
+			{
+				"group:stick",
+				""
+			}
+		},
+		source = "default",
+		output = "default:axe_wood"
+	},
+	{
+		recipe = {
+			{
+				"group:stone",
+				"group:stone"
+			},
+			{
+				"group:stick",
+				"group:stone"
+			},
+			{
+				"group:stick",
+				""
+			}
+		},
+		source = "default",
+		output = "default:axe_stone"
+	},
+	{
+		recipe = {
+			{
+				"default:steel_ingot",
+				"default:steel_ingot"
+			},
+			{
+				"group:stick",
+				"default:steel_ingot"
+			},
+			{
+				"group:stick",
+				""
+			}
+		},
+		source = "default",
+		output = "default:axe_steel"
+	},
+	{
+		recipe = {
+			{
+				"default:bronze_ingot",
+				"default:bronze_ingot"
+			},
+			{
+				"group:stick",
+				"default:bronze_ingot"
+			},
+			{
+				"group:stick",
+				""
+			}
+		},
+		source = "default",
+		output = "default:axe_bronze"
+	},
+	{
+		recipe = {
+			{
+				"default:mese_crystal",
+				"default:mese_crystal"
+			},
+			{
+				"group:stick",
+				"default:mese_crystal"
+			},
+			{
+				"group:stick",
+				""
+			}
+		},
+		source = "default",
+		output = "default:axe_mese"
+	},
+	{
+		recipe = {
+			{
+				"default:diamond",
+				"default:diamond"
+			},
+			{
+				"group:stick",
+				"default:diamond"
+			},
+			{
+				"group:stick",
+				""
+			}
+		},
+		source = "default",
+		output = "default:axe_diamond"
+	},
+	{
+		recipe = {
+			{
+				"group:wood"
+			},
+			{
+				"group:wood"
+			},
+			{
+				"group:stick"
+			}
+		},
+		source = "default",
+		output = "default:sword_wood"
+	},
+	{
+		recipe = {
+			{
+				"group:stone"
+			},
+			{
+				"group:stone"
+			},
+			{
+				"group:stick"
+			}
+		},
+		source = "default",
+		output = "default:sword_stone"
+	},
+	{
+		recipe = {
+			{
+				"default:steel_ingot"
+			},
+			{
+				"default:steel_ingot"
+			},
+			{
+				"group:stick"
+			}
+		},
+		source = "default",
+		output = "default:sword_steel"
+	},
+	{
+		recipe = {
+			{
+				"default:bronze_ingot"
+			},
+			{
+				"default:bronze_ingot"
+			},
+			{
+				"group:stick"
+			}
+		},
+		source = "default",
+		output = "default:sword_bronze"
+	},
+	{
+		recipe = {
+			{
+				"default:mese_crystal"
+			},
+			{
+				"default:mese_crystal"
+			},
+			{
+				"group:stick"
+			}
+		},
+		source = "default",
+		output = "default:sword_mese"
+	},
+	{
+		recipe = {
+			{
+				"default:diamond"
+			},
+			{
+				"default:diamond"
+			},
+			{
+				"group:stick"
+			}
+		},
+		source = "default",
+		output = "default:sword_diamond"
+	},
+	{
+		recipe = {
+			{
+				"default:steel_ingot",
+				"",
+				"default:steel_ingot"
+			},
+			{
+				"default:steel_ingot",
+				"group:stick",
+				"default:steel_ingot"
+			},
+			{
+				"default:steel_ingot",
+				"",
+				"default:steel_ingot"
+			}
+		},
+		source = "default",
+		output = "default:rail 24"
+	},
+	{
+		recipe = {
+			{
+				"group:wood",
+				"group:wood",
+				"group:wood"
+			},
+			{
+				"group:wood",
+				"",
+				"group:wood"
+			},
+			{
+				"group:wood",
+				"group:wood",
+				"group:wood"
+			}
+		},
+		source = "default",
+		output = "default:chest"
+	},
+	{
+		recipe = {
+			{
+				"group:wood",
+				"group:wood",
+				"group:wood"
+			},
+			{
+				"group:wood",
+				"default:steel_ingot",
+				"group:wood"
+			},
+			{
+				"group:wood",
+				"group:wood",
+				"group:wood"
+			}
+		},
+		source = "default",
+		output = "default:chest_locked"
+	},
+	{
+		recipe = {
+			{
+				"group:stone",
+				"group:stone",
+				"group:stone"
+			},
+			{
+				"group:stone",
+				"",
+				"group:stone"
+			},
+			{
+				"group:stone",
+				"group:stone",
+				"group:stone"
+			}
+		},
+		source = "default",
+		output = "default:furnace"
+	},
+	{
+		recipe = {
+			"default:steel_ingot",
+			"default:copper_ingot"
+		},
+		type = "shapeless",
+		source = "default",
+		output = "default:bronze_ingot"
+	},
+	{
+		recipe = {
+			{
+				"default:coal_lump",
+				"default:coal_lump",
+				"default:coal_lump"
+			},
+			{
+				"default:coal_lump",
+				"default:coal_lump",
+				"default:coal_lump"
+			},
+			{
+				"default:coal_lump",
+				"default:coal_lump",
+				"default:coal_lump"
+			}
+		},
+		source = "default",
+		output = "default:coalblock"
+	},
+	{
+		recipe = {
+			{
+				"default:coalblock"
+			}
+		},
+		source = "default",
+		output = "default:coal_lump 9"
+	},
+	{
+		recipe = {
+			{
+				"default:steel_ingot",
+				"default:steel_ingot",
+				"default:steel_ingot"
+			},
+			{
+				"default:steel_ingot",
+				"default:steel_ingot",
+				"default:steel_ingot"
+			},
+			{
+				"default:steel_ingot",
+				"default:steel_ingot",
+				"default:steel_ingot"
+			}
+		},
+		source = "default",
+		output = "default:steelblock"
+	},
+	{
+		recipe = {
+			{
+				"default:steelblock"
+			}
+		},
+		source = "default",
+		output = "default:steel_ingot 9"
+	},
+	{
+		recipe = {
+			{
+				"default:copper_ingot",
+				"default:copper_ingot",
+				"default:copper_ingot"
+			},
+			{
+				"default:copper_ingot",
+				"default:copper_ingot",
+				"default:copper_ingot"
+			},
+			{
+				"default:copper_ingot",
+				"default:copper_ingot",
+				"default:copper_ingot"
+			}
+		},
+		source = "default",
+		output = "default:copperblock"
+	},
+	{
+		recipe = {
+			{
+				"default:copperblock"
+			}
+		},
+		source = "default",
+		output = "default:copper_ingot 9"
+	},
+	{
+		recipe = {
+			{
+				"default:bronze_ingot",
+				"default:bronze_ingot",
+				"default:bronze_ingot"
+			},
+			{
+				"default:bronze_ingot",
+				"default:bronze_ingot",
+				"default:bronze_ingot"
+			},
+			{
+				"default:bronze_ingot",
+				"default:bronze_ingot",
+				"default:bronze_ingot"
+			}
+		},
+		source = "default",
+		output = "default:bronzeblock"
+	},
+	{
+		recipe = {
+			{
+				"default:bronzeblock"
+			}
+		},
+		source = "default",
+		output = "default:bronze_ingot 9"
+	},
+	{
+		recipe = {
+			{
+				"default:gold_ingot",
+				"default:gold_ingot",
+				"default:gold_ingot"
+			},
+			{
+				"default:gold_ingot",
+				"default:gold_ingot",
+				"default:gold_ingot"
+			},
+			{
+				"default:gold_ingot",
+				"default:gold_ingot",
+				"default:gold_ingot"
+			}
+		},
+		source = "default",
+		output = "default:goldblock"
+	},
+	{
+		recipe = {
+			{
+				"default:goldblock"
+			}
+		},
+		source = "default",
+		output = "default:gold_ingot 9"
+	},
+	{
+		recipe = {
+			{
+				"default:diamond",
+				"default:diamond",
+				"default:diamond"
+			},
+			{
+				"default:diamond",
+				"default:diamond",
+				"default:diamond"
+			},
+			{
+				"default:diamond",
+				"default:diamond",
+				"default:diamond"
+			}
+		},
+		source = "default",
+		output = "default:diamondblock"
+	},
+	{
+		recipe = {
+			{
+				"default:diamondblock"
+			}
+		},
+		source = "default",
+		output = "default:diamond 9"
+	},
+	{
+		recipe = {
+			{
+				"group:sand",
+				"group:sand"
+			},
+			{
+				"group:sand",
+				"group:sand"
+			}
+		},
+		source = "default",
+		output = "default:sandstone"
+	},
+	{
+		recipe = {
+			{
+				"default:sandstone"
+			}
+		},
+		source = "default",
+		output = "default:sand 4"
+	},
+	{
+		recipe = {
+			{
+				"default:sandstone",
+				"default:sandstone"
+			},
+			{
+				"default:sandstone",
+				"default:sandstone"
+			}
+		},
+		source = "default",
+		output = "default:sandstonebrick 4"
+	},
+	{
+		recipe = {
+			{
+				"default:clay_lump",
+				"default:clay_lump"
+			},
+			{
+				"default:clay_lump",
+				"default:clay_lump"
+			}
+		},
+		source = "default",
+		output = "default:clay"
+	},
+	{
+		recipe = {
+			{
+				"default:clay"
+			}
+		},
+		source = "default",
+		output = "default:clay_lump 4"
+	},
+	{
+		recipe = {
+			{
+				"default:clay_brick",
+				"default:clay_brick"
+			},
+			{
+				"default:clay_brick",
+				"default:clay_brick"
+			}
+		},
+		source = "default",
+		output = "default:brick"
+	},
+	{
+		recipe = {
+			{
+				"default:brick"
+			}
+		},
+		source = "default",
+		output = "default:clay_brick 4"
+	},
+	{
+		recipe = {
+			{
+				"default:papyrus",
+				"default:papyrus",
+				"default:papyrus"
+			}
+		},
+		source = "default",
+		output = "default:paper"
+	},
+	{
+		recipe = {
+			{
+				"default:paper"
+			},
+			{
+				"default:paper"
+			},
+			{
+				"default:paper"
+			}
+		},
+		source = "default",
+		output = "default:book"
+	},
+	{
+		recipe = {
+			{
+				"group:wood",
+				"group:wood",
+				"group:wood"
+			},
+			{
+				"default:book",
+				"default:book",
+				"default:book"
+			},
+			{
+				"group:wood",
+				"group:wood",
+				"group:wood"
+			}
+		},
+		source = "default",
+		output = "default:bookshelf"
+	},
+	{
+		recipe = {
+			{
+				"group:stick",
+				"",
+				"group:stick"
+			},
+			{
+				"group:stick",
+				"group:stick",
+				"group:stick"
+			},
+			{
+				"group:stick",
+				"",
+				"group:stick"
+			}
+		},
+		source = "default",
+		output = "default:ladder_wood 3"
+	},
+	{
+		recipe = {
+			{
+				"default:steel_ingot",
+				"",
+				"default:steel_ingot"
+			},
+			{
+				"default:steel_ingot",
+				"default:steel_ingot",
+				"default:steel_ingot"
+			},
+			{
+				"default:steel_ingot",
+				"",
+				"default:steel_ingot"
+			}
+		},
+		source = "default",
+		output = "default:ladder_steel 15"
+	},
+	{
+		recipe = {
+			{
+				"default:mese_crystal",
+				"default:mese_crystal",
+				"default:mese_crystal"
+			},
+			{
+				"default:mese_crystal",
+				"default:mese_crystal",
+				"default:mese_crystal"
+			},
+			{
+				"default:mese_crystal",
+				"default:mese_crystal",
+				"default:mese_crystal"
+			}
+		},
+		source = "default",
+		output = "default:mese"
+	},
+	{
+		recipe = {
+			{
+				"default:mese"
+			}
+		},
+		source = "default",
+		output = "default:mese_crystal 9"
+	},
+	{
+		recipe = {
+			{
+				"default:mese_crystal"
+			}
+		},
+		source = "default",
+		output = "default:mese_crystal_fragment 9"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"default:mese_crystal",
+				""
+			},
+			{
+				"default:mese_crystal",
+				"default:glass",
+				"default:mese_crystal"
+			}
+		},
+		source = "default",
+		output = "default:meselamp 1"
+	},
+	{
+		recipe = {
+			{
+				"default:obsidian"
+			}
+		},
+		source = "default",
+		output = "default:obsidian_shard 9"
+	},
+	{
+		recipe = {
+			{
+				"default:obsidian_shard",
+				"default:obsidian_shard",
+				"default:obsidian_shard"
+			},
+			{
+				"default:obsidian_shard",
+				"default:obsidian_shard",
+				"default:obsidian_shard"
+			},
+			{
+				"default:obsidian_shard",
+				"default:obsidian_shard",
+				"default:obsidian_shard"
+			}
+		},
+		source = "default",
+		output = "default:obsidian"
+	},
+	{
+		recipe = {
+			{
+				"default:obsidian",
+				"default:obsidian"
+			},
+			{
+				"default:obsidian",
+				"default:obsidian"
+			}
+		},
+		source = "default",
+		output = "default:obsidianbrick 4"
+	},
+	{
+		recipe = {
+			{
+				"default:stone",
+				"default:stone"
+			},
+			{
+				"default:stone",
+				"default:stone"
+			}
+		},
+		source = "default",
+		output = "default:stonebrick 4"
+	},
+	{
+		recipe = {
+			{
+				"default:desert_stone",
+				"default:desert_stone"
+			},
+			{
+				"default:desert_stone",
+				"default:desert_stone"
+			}
+		},
+		source = "default",
+		output = "default:desert_stonebrick 4"
+	},
+	{
+		recipe = {
+			{
+				"default:snow",
+				"default:snow",
+				"default:snow"
+			},
+			{
+				"default:snow",
+				"default:snow",
+				"default:snow"
+			},
+			{
+				"default:snow",
+				"default:snow",
+				"default:snow"
+			}
+		},
+		source = "default",
+		output = "default:snowblock"
+	},
+	{
+		recipe = {
+			{
+				"default:snowblock"
+			}
+		},
+		source = "default",
+		output = "default:snow 9"
+	},
+	{
+		additional_wear = -0.02,
+		type = "toolrepair",
+		source = "default"
+	},
+	{
+		recipe = "group:sand",
+		type = "cooking",
+		source = "default",
+		output = "default:glass"
+	},
+	{
+		recipe = "default:obsidian_shard",
+		type = "cooking",
+		source = "default",
+		output = "default:obsidian_glass"
+	},
+	{
+		recipe = "default:cobble",
+		type = "cooking",
+		source = "default",
+		output = "default:stone"
+	},
+	{
+		recipe = "default:mossycobble",
+		type = "cooking",
+		source = "default",
+		output = "default:stone"
+	},
+	{
+		recipe = "default:desert_cobble",
+		type = "cooking",
+		source = "default",
+		output = "default:desert_stone"
+	},
+	{
+		recipe = "default:iron_lump",
+		type = "cooking",
+		source = "default",
+		output = "default:steel_ingot"
+	},
+	{
+		recipe = "default:copper_lump",
+		type = "cooking",
+		source = "default",
+		output = "default:copper_ingot"
+	},
+	{
+		recipe = "default:gold_lump",
+		type = "cooking",
+		source = "default",
+		output = "default:gold_ingot"
+	},
+	{
+		recipe = "default:clay_lump",
+		type = "cooking",
+		source = "default",
+		output = "default:clay_brick"
+	},
+	{
+		recipe = "group:tree",
+		type = "fuel",
+		burntime = 30,
+		source = "default"
+	},
+	{
+		recipe = "default:junglegrass",
+		type = "fuel",
+		burntime = 2,
+		source = "default"
+	},
+	{
+		recipe = "group:leaves",
+		type = "fuel",
+		burntime = 1,
+		source = "default"
+	},
+	{
+		recipe = "default:cactus",
+		type = "fuel",
+		burntime = 15,
+		source = "default"
+	},
+	{
+		recipe = "default:papyrus",
+		type = "fuel",
+		burntime = 1,
+		source = "default"
+	},
+	{
+		recipe = "default:bookshelf",
+		type = "fuel",
+		burntime = 30,
+		source = "default"
+	},
+	{
+		recipe = "default:fence_wood",
+		type = "fuel",
+		burntime = 15,
+		source = "default"
+	},
+	{
+		recipe = "default:fence_acacia_wood",
+		type = "fuel",
+		burntime = 15,
+		source = "default"
+	},
+	{
+		recipe = "default:fence_junglewood",
+		type = "fuel",
+		burntime = 15,
+		source = "default"
+	},
+	{
+		recipe = "default:fence_pine_wood",
+		type = "fuel",
+		burntime = 15,
+		source = "default"
+	},
+	{
+		recipe = "default:fence_aspen_wood",
+		type = "fuel",
+		burntime = 15,
+		source = "default"
+	},
+	{
+		recipe = "default:ladder_wood",
+		type = "fuel",
+		burntime = 5,
+		source = "default"
+	},
+	{
+		recipe = "group:wood",
+		type = "fuel",
+		burntime = 7,
+		source = "default"
+	},
+	{
+		recipe = "default:lava_source",
+		type = "fuel",
+		burntime = 60,
+		source = "default"
+	},
+	{
+		recipe = "default:torch",
+		type = "fuel",
+		burntime = 4,
+		source = "default"
+	},
+	{
+		recipe = "default:sign_wall_wood",
+		type = "fuel",
+		burntime = 10,
+		source = "default"
+	},
+	{
+		recipe = "default:chest",
+		type = "fuel",
+		burntime = 30,
+		source = "default"
+	},
+	{
+		recipe = "default:chest_locked",
+		type = "fuel",
+		burntime = 30,
+		source = "default"
+	},
+	{
+		recipe = "default:nyancat",
+		type = "fuel",
+		burntime = 1,
+		source = "default"
+	},
+	{
+		recipe = "default:nyancat_rainbow",
+		type = "fuel",
+		burntime = 1,
+		source = "default"
+	},
+	{
+		recipe = "group:sapling",
+		type = "fuel",
+		burntime = 10,
+		source = "default"
+	},
+	{
+		recipe = "default:apple",
+		type = "fuel",
+		burntime = 3,
+		source = "default"
+	},
+	{
+		recipe = "default:coal_lump",
+		type = "fuel",
+		burntime = 40,
+		source = "default"
+	},
+	{
+		recipe = "default:coalblock",
+		type = "fuel",
+		burntime = 370,
+		source = "default"
+	},
+	{
+		recipe = "default:grass_1",
+		type = "fuel",
+		burntime = 2,
+		source = "default"
+	},
+	{
+		recipe = "default:dry_grass_1",
+		type = "fuel",
+		burntime = 2,
+		source = "default"
+	},
+	{
+		recipe = {
+			{
+				"default:glass",
+				"default:glass",
+				"default:glass"
+			},
+			{
+				"default:glass",
+				"default:glass",
+				"default:glass"
+			}
+		},
+		source = "xpanes",
+		output = "xpanes:pane 16"
+	},
+	{
+		recipe = {
+			{
+				"default:steel_ingot",
+				"default:steel_ingot",
+				"default:steel_ingot"
+			},
+			{
+				"default:steel_ingot",
+				"default:steel_ingot",
+				"default:steel_ingot"
+			}
+		},
+		source = "xpanes",
+		output = "xpanes:bar 16"
+	},
+	{
+		recipe = {
+			"group:dye,basecolor_white",
+			"group:wool"
+		},
+		type = "shapeless",
+		source = "wool",
+		output = "wool:white"
+	},
+	{
+		recipe = {
+			"group:dye,basecolor_grey",
+			"group:wool"
+		},
+		type = "shapeless",
+		source = "wool",
+		output = "wool:grey"
+	},
+	{
+		recipe = {
+			"group:dye,basecolor_black",
+			"group:wool"
+		},
+		type = "shapeless",
+		source = "wool",
+		output = "wool:black"
+	},
+	{
+		recipe = {
+			"group:dye,basecolor_red",
+			"group:wool"
+		},
+		type = "shapeless",
+		source = "wool",
+		output = "wool:red"
+	},
+	{
+		recipe = {
+			"group:dye,basecolor_yellow",
+			"group:wool"
+		},
+		type = "shapeless",
+		source = "wool",
+		output = "wool:yellow"
+	},
+	{
+		recipe = {
+			"group:dye,basecolor_green",
+			"group:wool"
+		},
+		type = "shapeless",
+		source = "wool",
+		output = "wool:green"
+	},
+	{
+		recipe = {
+			"group:dye,basecolor_cyan",
+			"group:wool"
+		},
+		type = "shapeless",
+		source = "wool",
+		output = "wool:cyan"
+	},
+	{
+		recipe = {
+			"group:dye,basecolor_blue",
+			"group:wool"
+		},
+		type = "shapeless",
+		source = "wool",
+		output = "wool:blue"
+	},
+	{
+		recipe = {
+			"group:dye,basecolor_magenta",
+			"group:wool"
+		},
+		type = "shapeless",
+		source = "wool",
+		output = "wool:magenta"
+	},
+	{
+		recipe = {
+			"group:dye,excolor_orange",
+			"group:wool"
+		},
+		type = "shapeless",
+		source = "wool",
+		output = "wool:orange"
+	},
+	{
+		recipe = {
+			"group:dye,excolor_violet",
+			"group:wool"
+		},
+		type = "shapeless",
+		source = "wool",
+		output = "wool:violet"
+	},
+	{
+		recipe = {
+			"group:dye,unicolor_dark_orange",
+			"group:wool"
+		},
+		type = "shapeless",
+		source = "wool",
+		output = "wool:brown"
+	},
+	{
+		recipe = {
+			"group:dye,unicolor_light_red",
+			"group:wool"
+		},
+		type = "shapeless",
+		source = "wool",
+		output = "wool:pink"
+	},
+	{
+		recipe = {
+			"group:dye,unicolor_darkgrey",
+			"group:wool"
+		},
+		type = "shapeless",
+		source = "wool",
+		output = "wool:dark_grey"
+	},
+	{
+		recipe = {
+			"group:dye,unicolor_dark_green",
+			"group:wool"
+		},
+		type = "shapeless",
+		source = "wool",
+		output = "wool:dark_green"
+	},
+	{
+		recipe = {
+			{
+				"group:wood",
+				"group:wood",
+				""
+			},
+			{
+				"",
+				"group:stick",
+				""
+			},
+			{
+				"",
+				"group:stick",
+				""
+			}
+		},
+		source = "farming",
+		output = "farming:hoe_wood"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"group:wood",
+				"group:wood"
+			},
+			{
+				"",
+				"group:stick",
+				""
+			},
+			{
+				"",
+				"group:stick",
+				""
+			}
+		},
+		source = "farming",
+		output = "farming:hoe_wood"
+	},
+	{
+		recipe = {
+			{
+				"group:stone",
+				"group:stone",
+				""
+			},
+			{
+				"",
+				"group:stick",
+				""
+			},
+			{
+				"",
+				"group:stick",
+				""
+			}
+		},
+		source = "farming",
+		output = "farming:hoe_stone"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"group:stone",
+				"group:stone"
+			},
+			{
+				"",
+				"group:stick",
+				""
+			},
+			{
+				"",
+				"group:stick",
+				""
+			}
+		},
+		source = "farming",
+		output = "farming:hoe_stone"
+	},
+	{
+		recipe = {
+			{
+				"default:steel_ingot",
+				"default:steel_ingot",
+				""
+			},
+			{
+				"",
+				"group:stick",
+				""
+			},
+			{
+				"",
+				"group:stick",
+				""
+			}
+		},
+		source = "farming",
+		output = "farming:hoe_steel"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"default:steel_ingot",
+				"default:steel_ingot"
+			},
+			{
+				"",
+				"group:stick",
+				""
+			},
+			{
+				"",
+				"group:stick",
+				""
+			}
+		},
+		source = "farming",
+		output = "farming:hoe_steel"
+	},
+	{
+		recipe = {
+			{
+				"default:bronze_ingot",
+				"default:bronze_ingot",
+				""
+			},
+			{
+				"",
+				"group:stick",
+				""
+			},
+			{
+				"",
+				"group:stick",
+				""
+			}
+		},
+		source = "farming",
+		output = "farming:hoe_bronze"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"default:bronze_ingot",
+				"default:bronze_ingot"
+			},
+			{
+				"",
+				"group:stick",
+				""
+			},
+			{
+				"",
+				"group:stick",
+				""
+			}
+		},
+		source = "farming",
+		output = "farming:hoe_bronze"
+	},
+	{
+		recipe = {
+			{
+				"default:mese_crystal",
+				"default:mese_crystal",
+				""
+			},
+			{
+				"",
+				"group:stick",
+				""
+			},
+			{
+				"",
+				"group:stick",
+				""
+			}
+		},
+		source = "farming",
+		output = "farming:hoe_mese"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"default:mese_crystal",
+				"default:mese_crystal"
+			},
+			{
+				"",
+				"group:stick",
+				""
+			},
+			{
+				"",
+				"group:stick",
+				""
+			}
+		},
+		source = "farming",
+		output = "farming:hoe_mese"
+	},
+	{
+		recipe = {
+			{
+				"default:diamond",
+				"default:diamond",
+				""
+			},
+			{
+				"",
+				"group:stick",
+				""
+			},
+			{
+				"",
+				"group:stick",
+				""
+			}
+		},
+		source = "farming",
+		output = "farming:hoe_diamond"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"default:diamond",
+				"default:diamond"
+			},
+			{
+				"",
+				"group:stick",
+				""
+			},
+			{
+				"",
+				"group:stick",
+				""
+			}
+		},
+		source = "farming",
+		output = "farming:hoe_diamond"
+	},
+	{
+		recipe = {
+			"farming:wheat",
+			"farming:wheat",
+			"farming:wheat",
+			"farming:wheat"
+		},
+		type = "shapeless",
+		source = "farming",
+		output = "farming:flour"
+	},
+	{
+		recipe = "farming:flour",
+		type = "cooking",
+		source = "farming",
+		cooktime = 15,
+		output = "farming:bread"
+	},
+	{
+		recipe = {
+			{
+				"farming:cotton",
+				"farming:cotton"
+			},
+			{
+				"farming:cotton",
+				"farming:cotton"
+			}
+		},
+		source = "farming",
+		output = "wool:white"
+	},
+	{
+		recipe = {
+			{
+				"farming:wheat",
+				"farming:wheat",
+				"farming:wheat"
+			},
+			{
+				"farming:wheat",
+				"farming:wheat",
+				"farming:wheat"
+			},
+			{
+				"farming:wheat",
+				"farming:wheat",
+				"farming:wheat"
+			}
+		},
+		source = "farming",
+		output = "farming:straw 3"
+	},
+	{
+		recipe = {
+			{
+				"farming:straw"
+			}
+		},
+		source = "farming",
+		output = "farming:wheat 3"
+	},
+	{
+		recipe = {
+			{
+				"default:wood",
+				"",
+				""
+			},
+			{
+				"default:wood",
+				"default:wood",
+				""
+			},
+			{
+				"default:wood",
+				"default:wood",
+				"default:wood"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_wood 6"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				"default:wood"
+			},
+			{
+				"",
+				"default:wood",
+				"default:wood"
+			},
+			{
+				"default:wood",
+				"default:wood",
+				"default:wood"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_wood 6"
+	},
+	{
+		recipe = {
+			{
+				"default:wood",
+				"default:wood",
+				"default:wood"
+			}
+		},
+		source = "stairs",
+		output = "stairs:slab_wood 6"
+	},
+	{
+		recipe = {
+			{
+				"default:junglewood",
+				"",
+				""
+			},
+			{
+				"default:junglewood",
+				"default:junglewood",
+				""
+			},
+			{
+				"default:junglewood",
+				"default:junglewood",
+				"default:junglewood"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_junglewood 6"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				"default:junglewood"
+			},
+			{
+				"",
+				"default:junglewood",
+				"default:junglewood"
+			},
+			{
+				"default:junglewood",
+				"default:junglewood",
+				"default:junglewood"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_junglewood 6"
+	},
+	{
+		recipe = {
+			{
+				"default:junglewood",
+				"default:junglewood",
+				"default:junglewood"
+			}
+		},
+		source = "stairs",
+		output = "stairs:slab_junglewood 6"
+	},
+	{
+		recipe = {
+			{
+				"default:pine_wood",
+				"",
+				""
+			},
+			{
+				"default:pine_wood",
+				"default:pine_wood",
+				""
+			},
+			{
+				"default:pine_wood",
+				"default:pine_wood",
+				"default:pine_wood"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_pine_wood 6"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				"default:pine_wood"
+			},
+			{
+				"",
+				"default:pine_wood",
+				"default:pine_wood"
+			},
+			{
+				"default:pine_wood",
+				"default:pine_wood",
+				"default:pine_wood"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_pine_wood 6"
+	},
+	{
+		recipe = {
+			{
+				"default:pine_wood",
+				"default:pine_wood",
+				"default:pine_wood"
+			}
+		},
+		source = "stairs",
+		output = "stairs:slab_pine_wood 6"
+	},
+	{
+		recipe = {
+			{
+				"default:acacia_wood",
+				"",
+				""
+			},
+			{
+				"default:acacia_wood",
+				"default:acacia_wood",
+				""
+			},
+			{
+				"default:acacia_wood",
+				"default:acacia_wood",
+				"default:acacia_wood"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_acacia_wood 6"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				"default:acacia_wood"
+			},
+			{
+				"",
+				"default:acacia_wood",
+				"default:acacia_wood"
+			},
+			{
+				"default:acacia_wood",
+				"default:acacia_wood",
+				"default:acacia_wood"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_acacia_wood 6"
+	},
+	{
+		recipe = {
+			{
+				"default:acacia_wood",
+				"default:acacia_wood",
+				"default:acacia_wood"
+			}
+		},
+		source = "stairs",
+		output = "stairs:slab_acacia_wood 6"
+	},
+	{
+		recipe = {
+			{
+				"default:aspen_wood",
+				"",
+				""
+			},
+			{
+				"default:aspen_wood",
+				"default:aspen_wood",
+				""
+			},
+			{
+				"default:aspen_wood",
+				"default:aspen_wood",
+				"default:aspen_wood"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_aspen_wood 6"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				"default:aspen_wood"
+			},
+			{
+				"",
+				"default:aspen_wood",
+				"default:aspen_wood"
+			},
+			{
+				"default:aspen_wood",
+				"default:aspen_wood",
+				"default:aspen_wood"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_aspen_wood 6"
+	},
+	{
+		recipe = {
+			{
+				"default:aspen_wood",
+				"default:aspen_wood",
+				"default:aspen_wood"
+			}
+		},
+		source = "stairs",
+		output = "stairs:slab_aspen_wood 6"
+	},
+	{
+		recipe = {
+			{
+				"default:stone",
+				"",
+				""
+			},
+			{
+				"default:stone",
+				"default:stone",
+				""
+			},
+			{
+				"default:stone",
+				"default:stone",
+				"default:stone"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_stone 6"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				"default:stone"
+			},
+			{
+				"",
+				"default:stone",
+				"default:stone"
+			},
+			{
+				"default:stone",
+				"default:stone",
+				"default:stone"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_stone 6"
+	},
+	{
+		recipe = {
+			{
+				"default:stone",
+				"default:stone",
+				"default:stone"
+			}
+		},
+		source = "stairs",
+		output = "stairs:slab_stone 6"
+	},
+	{
+		recipe = {
+			{
+				"default:cobble",
+				"",
+				""
+			},
+			{
+				"default:cobble",
+				"default:cobble",
+				""
+			},
+			{
+				"default:cobble",
+				"default:cobble",
+				"default:cobble"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_cobble 6"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				"default:cobble"
+			},
+			{
+				"",
+				"default:cobble",
+				"default:cobble"
+			},
+			{
+				"default:cobble",
+				"default:cobble",
+				"default:cobble"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_cobble 6"
+	},
+	{
+		recipe = {
+			{
+				"default:cobble",
+				"default:cobble",
+				"default:cobble"
+			}
+		},
+		source = "stairs",
+		output = "stairs:slab_cobble 6"
+	},
+	{
+		recipe = {
+			{
+				"default:stonebrick",
+				"",
+				""
+			},
+			{
+				"default:stonebrick",
+				"default:stonebrick",
+				""
+			},
+			{
+				"default:stonebrick",
+				"default:stonebrick",
+				"default:stonebrick"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_stonebrick 6"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				"default:stonebrick"
+			},
+			{
+				"",
+				"default:stonebrick",
+				"default:stonebrick"
+			},
+			{
+				"default:stonebrick",
+				"default:stonebrick",
+				"default:stonebrick"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_stonebrick 6"
+	},
+	{
+		recipe = {
+			{
+				"default:stonebrick",
+				"default:stonebrick",
+				"default:stonebrick"
+			}
+		},
+		source = "stairs",
+		output = "stairs:slab_stonebrick 6"
+	},
+	{
+		recipe = {
+			{
+				"default:desert_stone",
+				"",
+				""
+			},
+			{
+				"default:desert_stone",
+				"default:desert_stone",
+				""
+			},
+			{
+				"default:desert_stone",
+				"default:desert_stone",
+				"default:desert_stone"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_desert_stone 6"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				"default:desert_stone"
+			},
+			{
+				"",
+				"default:desert_stone",
+				"default:desert_stone"
+			},
+			{
+				"default:desert_stone",
+				"default:desert_stone",
+				"default:desert_stone"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_desert_stone 6"
+	},
+	{
+		recipe = {
+			{
+				"default:desert_stone",
+				"default:desert_stone",
+				"default:desert_stone"
+			}
+		},
+		source = "stairs",
+		output = "stairs:slab_desert_stone 6"
+	},
+	{
+		recipe = {
+			{
+				"default:desert_cobble",
+				"",
+				""
+			},
+			{
+				"default:desert_cobble",
+				"default:desert_cobble",
+				""
+			},
+			{
+				"default:desert_cobble",
+				"default:desert_cobble",
+				"default:desert_cobble"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_desert_cobble 6"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				"default:desert_cobble"
+			},
+			{
+				"",
+				"default:desert_cobble",
+				"default:desert_cobble"
+			},
+			{
+				"default:desert_cobble",
+				"default:desert_cobble",
+				"default:desert_cobble"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_desert_cobble 6"
+	},
+	{
+		recipe = {
+			{
+				"default:desert_cobble",
+				"default:desert_cobble",
+				"default:desert_cobble"
+			}
+		},
+		source = "stairs",
+		output = "stairs:slab_desert_cobble 6"
+	},
+	{
+		recipe = {
+			{
+				"default:desert_stonebrick",
+				"",
+				""
+			},
+			{
+				"default:desert_stonebrick",
+				"default:desert_stonebrick",
+				""
+			},
+			{
+				"default:desert_stonebrick",
+				"default:desert_stonebrick",
+				"default:desert_stonebrick"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_desert_stonebrick 6"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				"default:desert_stonebrick"
+			},
+			{
+				"",
+				"default:desert_stonebrick",
+				"default:desert_stonebrick"
+			},
+			{
+				"default:desert_stonebrick",
+				"default:desert_stonebrick",
+				"default:desert_stonebrick"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_desert_stonebrick 6"
+	},
+	{
+		recipe = {
+			{
+				"default:desert_stonebrick",
+				"default:desert_stonebrick",
+				"default:desert_stonebrick"
+			}
+		},
+		source = "stairs",
+		output = "stairs:slab_desert_stonebrick 6"
+	},
+	{
+		recipe = {
+			{
+				"default:sandstone",
+				"",
+				""
+			},
+			{
+				"default:sandstone",
+				"default:sandstone",
+				""
+			},
+			{
+				"default:sandstone",
+				"default:sandstone",
+				"default:sandstone"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_sandstone 6"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				"default:sandstone"
+			},
+			{
+				"",
+				"default:sandstone",
+				"default:sandstone"
+			},
+			{
+				"default:sandstone",
+				"default:sandstone",
+				"default:sandstone"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_sandstone 6"
+	},
+	{
+		recipe = {
+			{
+				"default:sandstone",
+				"default:sandstone",
+				"default:sandstone"
+			}
+		},
+		source = "stairs",
+		output = "stairs:slab_sandstone 6"
+	},
+	{
+		recipe = {
+			{
+				"default:sandstonebrick",
+				"",
+				""
+			},
+			{
+				"default:sandstonebrick",
+				"default:sandstonebrick",
+				""
+			},
+			{
+				"default:sandstonebrick",
+				"default:sandstonebrick",
+				"default:sandstonebrick"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_sandstonebrick 6"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				"default:sandstonebrick"
+			},
+			{
+				"",
+				"default:sandstonebrick",
+				"default:sandstonebrick"
+			},
+			{
+				"default:sandstonebrick",
+				"default:sandstonebrick",
+				"default:sandstonebrick"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_sandstonebrick 6"
+	},
+	{
+		recipe = {
+			{
+				"default:sandstonebrick",
+				"default:sandstonebrick",
+				"default:sandstonebrick"
+			}
+		},
+		source = "stairs",
+		output = "stairs:slab_sandstonebrick 6"
+	},
+	{
+		recipe = {
+			{
+				"default:obsidian",
+				"",
+				""
+			},
+			{
+				"default:obsidian",
+				"default:obsidian",
+				""
+			},
+			{
+				"default:obsidian",
+				"default:obsidian",
+				"default:obsidian"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_obsidian 6"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				"default:obsidian"
+			},
+			{
+				"",
+				"default:obsidian",
+				"default:obsidian"
+			},
+			{
+				"default:obsidian",
+				"default:obsidian",
+				"default:obsidian"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_obsidian 6"
+	},
+	{
+		recipe = {
+			{
+				"default:obsidian",
+				"default:obsidian",
+				"default:obsidian"
+			}
+		},
+		source = "stairs",
+		output = "stairs:slab_obsidian 6"
+	},
+	{
+		recipe = {
+			{
+				"default:obsidianbrick",
+				"",
+				""
+			},
+			{
+				"default:obsidianbrick",
+				"default:obsidianbrick",
+				""
+			},
+			{
+				"default:obsidianbrick",
+				"default:obsidianbrick",
+				"default:obsidianbrick"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_obsidianbrick 6"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				"default:obsidianbrick"
+			},
+			{
+				"",
+				"default:obsidianbrick",
+				"default:obsidianbrick"
+			},
+			{
+				"default:obsidianbrick",
+				"default:obsidianbrick",
+				"default:obsidianbrick"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_obsidianbrick 6"
+	},
+	{
+		recipe = {
+			{
+				"default:obsidianbrick",
+				"default:obsidianbrick",
+				"default:obsidianbrick"
+			}
+		},
+		source = "stairs",
+		output = "stairs:slab_obsidianbrick 6"
+	},
+	{
+		recipe = {
+			{
+				"default:brick",
+				"",
+				""
+			},
+			{
+				"default:brick",
+				"default:brick",
+				""
+			},
+			{
+				"default:brick",
+				"default:brick",
+				"default:brick"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_brick 6"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				"default:brick"
+			},
+			{
+				"",
+				"default:brick",
+				"default:brick"
+			},
+			{
+				"default:brick",
+				"default:brick",
+				"default:brick"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_brick 6"
+	},
+	{
+		recipe = {
+			{
+				"default:brick",
+				"default:brick",
+				"default:brick"
+			}
+		},
+		source = "stairs",
+		output = "stairs:slab_brick 6"
+	},
+	{
+		recipe = {
+			{
+				"farming:straw",
+				"",
+				""
+			},
+			{
+				"farming:straw",
+				"farming:straw",
+				""
+			},
+			{
+				"farming:straw",
+				"farming:straw",
+				"farming:straw"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_straw 6"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				"farming:straw"
+			},
+			{
+				"",
+				"farming:straw",
+				"farming:straw"
+			},
+			{
+				"farming:straw",
+				"farming:straw",
+				"farming:straw"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_straw 6"
+	},
+	{
+		recipe = {
+			{
+				"farming:straw",
+				"farming:straw",
+				"farming:straw"
+			}
+		},
+		source = "stairs",
+		output = "stairs:slab_straw 6"
+	},
+	{
+		recipe = {
+			{
+				"default:steelblock",
+				"",
+				""
+			},
+			{
+				"default:steelblock",
+				"default:steelblock",
+				""
+			},
+			{
+				"default:steelblock",
+				"default:steelblock",
+				"default:steelblock"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_steelblock 6"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				"default:steelblock"
+			},
+			{
+				"",
+				"default:steelblock",
+				"default:steelblock"
+			},
+			{
+				"default:steelblock",
+				"default:steelblock",
+				"default:steelblock"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_steelblock 6"
+	},
+	{
+		recipe = {
+			{
+				"default:steelblock",
+				"default:steelblock",
+				"default:steelblock"
+			}
+		},
+		source = "stairs",
+		output = "stairs:slab_steelblock 6"
+	},
+	{
+		recipe = {
+			{
+				"default:copperblock",
+				"",
+				""
+			},
+			{
+				"default:copperblock",
+				"default:copperblock",
+				""
+			},
+			{
+				"default:copperblock",
+				"default:copperblock",
+				"default:copperblock"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_copperblock 6"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				"default:copperblock"
+			},
+			{
+				"",
+				"default:copperblock",
+				"default:copperblock"
+			},
+			{
+				"default:copperblock",
+				"default:copperblock",
+				"default:copperblock"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_copperblock 6"
+	},
+	{
+		recipe = {
+			{
+				"default:copperblock",
+				"default:copperblock",
+				"default:copperblock"
+			}
+		},
+		source = "stairs",
+		output = "stairs:slab_copperblock 6"
+	},
+	{
+		recipe = {
+			{
+				"default:bronzeblock",
+				"",
+				""
+			},
+			{
+				"default:bronzeblock",
+				"default:bronzeblock",
+				""
+			},
+			{
+				"default:bronzeblock",
+				"default:bronzeblock",
+				"default:bronzeblock"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_bronzeblock 6"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				"default:bronzeblock"
+			},
+			{
+				"",
+				"default:bronzeblock",
+				"default:bronzeblock"
+			},
+			{
+				"default:bronzeblock",
+				"default:bronzeblock",
+				"default:bronzeblock"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_bronzeblock 6"
+	},
+	{
+		recipe = {
+			{
+				"default:bronzeblock",
+				"default:bronzeblock",
+				"default:bronzeblock"
+			}
+		},
+		source = "stairs",
+		output = "stairs:slab_bronzeblock 6"
+	},
+	{
+		recipe = {
+			{
+				"default:goldblock",
+				"",
+				""
+			},
+			{
+				"default:goldblock",
+				"default:goldblock",
+				""
+			},
+			{
+				"default:goldblock",
+				"default:goldblock",
+				"default:goldblock"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_goldblock 6"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				"default:goldblock"
+			},
+			{
+				"",
+				"default:goldblock",
+				"default:goldblock"
+			},
+			{
+				"default:goldblock",
+				"default:goldblock",
+				"default:goldblock"
+			}
+		},
+		source = "stairs",
+		output = "stairs:stair_goldblock 6"
+	},
+	{
+		recipe = {
+			{
+				"default:goldblock",
+				"default:goldblock",
+				"default:goldblock"
+			}
+		},
+		source = "stairs",
+		output = "stairs:slab_goldblock 6"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				"group:stick"
+			},
+			{
+				"wool:red",
+				"wool:red",
+				"wool:white"
+			},
+			{
+				"group:wood",
+				"group:wood",
+				"group:wood"
+			}
+		},
+		source = "beds",
+		output = "beds:fancy_bed"
+	},
+	{
+		recipe = {
+			{
+				"wool:red",
+				"wool:red",
+				"wool:white"
+			},
+			{
+				"group:wood",
+				"group:wood",
+				"group:wood"
+			}
+		},
+		source = "beds",
+		output = "beds:bed"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				""
+			},
+			{
+				"default:cobble",
+				"default:cobble",
+				"default:cobble"
+			},
+			{
+				"default:cobble",
+				"default:cobble",
+				"default:cobble"
+			}
+		},
+		source = "walls",
+		output = "walls:cobble 6"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				""
+			},
+			{
+				"default:mossycobble",
+				"default:mossycobble",
+				"default:mossycobble"
+			},
+			{
+				"default:mossycobble",
+				"default:mossycobble",
+				"default:mossycobble"
+			}
+		},
+		source = "walls",
+		output = "walls:mossycobble 6"
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				""
+			},
+			{
+				"default:desert_cobble",
+				"default:desert_cobble",
+				"default:desert_cobble"
+			},
+			{
+				"default:desert_cobble",
+				"default:desert_cobble",
+				"default:desert_cobble"
+			}
+		},
+		source = "walls",
+		output = "walls:desertcobble 6"
+	},
+	{
+		recipe = {
+			{
+				"group:wood",
+				"group:wood",
+				"group:wood"
+			},
+			{
+				"group:vessel",
+				"group:vessel",
+				"group:vessel"
+			},
+			{
+				"group:wood",
+				"group:wood",
+				"group:wood"
+			}
+		},
+		source = "vessels",
+		output = "vessels:shelf"
+	},
+	{
+		recipe = {
+			{
+				"default:glass",
+				"",
+				"default:glass"
+			},
+			{
+				"default:glass",
+				"",
+				"default:glass"
+			},
+			{
+				"",
+				"default:glass",
+				""
+			}
+		},
+		source = "vessels",
+		output = "vessels:glass_bottle 10"
+	},
+	{
+		recipe = {
+			{
+				"default:glass",
+				"",
+				"default:glass"
+			},
+			{
+				"default:glass",
+				"",
+				"default:glass"
+			},
+			{
+				"default:glass",
+				"default:glass",
+				"default:glass"
+			}
+		},
+		source = "vessels",
+		output = "vessels:drinking_glass 14"
+	},
+	{
+		recipe = {
+			{
+				"default:steel_ingot",
+				"",
+				"default:steel_ingot"
+			},
+			{
+				"default:steel_ingot",
+				"",
+				"default:steel_ingot"
+			},
+			{
+				"",
+				"default:steel_ingot",
+				""
+			}
+		},
+		source = "vessels",
+		output = "vessels:steel_bottle 5"
+	},
+	{
+		recipe = {
+			"vessels:glass_bottle",
+			"vessels:glass_bottle"
+		},
+		type = "shapeless",
+		source = "vessels",
+		output = "vessels:glass_fragments"
+	},
+	{
+		recipe = {
+			"vessels:drinking_glass",
+			"vessels:drinking_glass"
+		},
+		type = "shapeless",
+		source = "vessels",
+		output = "vessels:glass_fragments"
+	},
+	{
+		recipe = "vessels:glass_fragments",
+		type = "cooking",
+		source = "vessels",
+		output = "default:glass"
+	},
+	{
+		recipe = "vessels:steel_bottle",
+		type = "cooking",
+		source = "vessels",
+		output = "default:steel_ingot"
+	},
+	{
+		recipe = {
+			{
+				"group:wood",
+				"group:wood"
+			},
+			{
+				"group:wood",
+				"group:wood"
+			},
+			{
+				"group:wood",
+				"group:wood"
+			}
+		},
+		source = "doors",
+		output = "doors:door_wood"
+	},
+	{
+		recipe = {
+			{
+				"default:steel_ingot",
+				"default:steel_ingot"
+			},
+			{
+				"default:steel_ingot",
+				"default:steel_ingot"
+			},
+			{
+				"default:steel_ingot",
+				"default:steel_ingot"
+			}
+		},
+		source = "doors",
+		output = "doors:door_steel"
+	},
+	{
+		recipe = {
+			{
+				"default:glass",
+				"default:glass"
+			},
+			{
+				"default:glass",
+				"default:glass"
+			},
+			{
+				"default:glass",
+				"default:glass"
+			}
+		},
+		source = "doors",
+		output = "doors:door_glass"
+	},
+	{
+		recipe = {
+			{
+				"default:obsidian_glass",
+				"default:obsidian_glass"
+			},
+			{
+				"default:obsidian_glass",
+				"default:obsidian_glass"
+			},
+			{
+				"default:obsidian_glass",
+				"default:obsidian_glass"
+			}
+		},
+		source = "doors",
+		output = "doors:door_obsidian_glass"
+	},
+	{
+		recipe = {
+			{
+				"group:wood",
+				"group:wood",
+				"group:wood"
+			},
+			{
+				"group:wood",
+				"group:wood",
+				"group:wood"
+			},
+			{
+				"",
+				"",
+				""
+			}
+		},
+		source = "doors",
+		output = "doors:trapdoor 2"
+	},
+	{
+		recipe = {
+			{
+				"default:steel_ingot",
+				"default:steel_ingot"
+			},
+			{
+				"default:steel_ingot",
+				"default:steel_ingot"
+			}
+		},
+		source = "doors",
+		output = "doors:trapdoor_steel"
+	},
+	{
+		recipe = {
+			{
+				"default:stick",
+				"default:wood",
+				"default:stick"
+			},
+			{
+				"default:stick",
+				"default:wood",
+				"default:stick"
+			}
+		},
+		source = "doors",
+		output = "doors:gate_wood_closed"
+	},
+	{
+		recipe = {
+			{
+				"default:stick",
+				"default:acacia_wood",
+				"default:stick"
+			},
+			{
+				"default:stick",
+				"default:acacia_wood",
+				"default:stick"
+			}
+		},
+		source = "doors",
+		output = "doors:gate_acacia_wood_closed"
+	},
+	{
+		recipe = {
+			{
+				"default:stick",
+				"default:junglewood",
+				"default:stick"
+			},
+			{
+				"default:stick",
+				"default:junglewood",
+				"default:stick"
+			}
+		},
+		source = "doors",
+		output = "doors:gate_junglewood_closed"
+	},
+	{
+		recipe = {
+			{
+				"default:stick",
+				"default:pine_wood",
+				"default:stick"
+			},
+			{
+				"default:stick",
+				"default:pine_wood",
+				"default:stick"
+			}
+		},
+		source = "doors",
+		output = "doors:gate_pine_wood_closed"
+	},
+	{
+		recipe = {
+			{
+				"default:stick",
+				"default:aspen_wood",
+				"default:stick"
+			},
+			{
+				"default:stick",
+				"default:aspen_wood",
+				"default:stick"
+			}
+		},
+		source = "doors",
+		output = "doors:gate_aspen_wood_closed"
+	},
+	{
+		recipe = {
+			{
+				"default:steel_ingot",
+				"",
+				"default:steel_ingot"
+			},
+			{
+				"",
+				"default:steel_ingot",
+				""
+			}
+		},
+		source = "bucket",
+		output = "bucket:bucket_empty 1"
+	},
+	{
+		recipe = "bucket:bucket_lava",
+		type = "fuel",
+		source = "bucket",
+		replacements = {
+			{
+				"bucket:bucket_lava",
+				"bucket:bucket_empty"
+			}
+		},
+		burntime = 60
+	},
+	{
+		recipe = {
+			{
+				"",
+				"",
+				""
+			},
+			{
+				"group:wood",
+				"",
+				"group:wood"
+			},
+			{
+				"group:wood",
+				"group:wood",
+				"group:wood"
+			}
+		},
+		source = "boats",
+		output = "boats:boat"
+	},
+}
+for _, craft in ipairs(craft_table) do
+	minetest.register_craft(craft)
+end
